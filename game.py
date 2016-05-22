@@ -8,6 +8,7 @@ def play_kino():
 	computer_numbers = lucky_numbers()
 	print "Which game mode you want to play (1 to 12)?"
 	mode = int(raw_input());
+	print_on_screen([])
 	if mode < 1 or mode > 12:
 		print "ERROR: Choose a mode between 1 to 12."
 		sys.exit(0)
